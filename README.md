@@ -5,7 +5,8 @@ Each project is built from scratch using Python and covers real-world tools and 
 ## Projects
 | Project | Description |
 |---|---|
-| [TCP Chat Room](./tcp-chat) | Multithreaded TCP chat server and client |
-| [Port Scanner](./port-scanner) | Threaded port scanner with banner grabbing |
+| [TCP Chat Room](./TCP-Chat) | Multithreaded TCP chat server and client |
+| [Port Scanner](./Port-Scanner) | Threaded port scanner with banner grabbing |
+| [Networking Scripts](./Scripts) | Python scripts built networking monitoring and automation |
 ---
 Developed in Python — focused on network engineering and NOC operations
