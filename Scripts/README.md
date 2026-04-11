@@ -22,7 +22,8 @@ This folder contains 365 Python scripts, one written per day, that progressively
 | 1 | `001-net-discovery.py` | Discover all local network interfaces, IPs, MACs, and subnet masks using psutil | 04/05/2026 |
 | 2 | `002-interface-status.py` | Pulls the operational status, link speed, and live traffic counters for network interfaces  | 04/06/2026 |
 | 3 | `003-network-report.py` | Combines levels 1 and 2 into a structured dictionary, exporting full reports into a JSON file  | 04/07/2026 |
-
+| 4 | `004-dns-tool.py` | DNS Querying and reverse lookups for IPv4 addresses | 04/10/2026 |
+| 5 | `005-subnetting-calculator.py` | Takes an IP address with CIDR notation and calculates the subnet | 04/11/2026 |
 
 ---
 
@@ -36,7 +37,9 @@ pip install -r requirements.txt
 
 | Package | First Used | Purpose |
 |---------|------------|---------|
-| `psutil` | Level 001 | Cross-platform system and network interface data |
+| `psutil` | Level 1 | Cross-platform system and network interface data |
+| `dnspython` | Level 4 | High level functionality for simple DNS queries  |
+
 
 ---
 
