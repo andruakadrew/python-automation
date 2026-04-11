@@ -1,3 +1,18 @@
+# ============================================================
+# Level 001 - Network Interface Discovery
+# ============================================================
+# Discovers all network interfaces on the local machine and
+# reports their names, IPv4/IPv6 addresses, MAC addresses,
+# and subnet masks. Cross-platform equivalent of ipconfig /all
+# (Windows) or ifconfig (Linux/macOS) with structured output.
+#
+# Usage:
+#   python level_001_interface_discovery.py
+#
+# Dependencies: psutil
+# ============================================================
+
+
 import psutil
 import socket
 
