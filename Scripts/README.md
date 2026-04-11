@@ -5,13 +5,12 @@ A daily scripting challenge progressing from networking fundamentals to advanced
 **Author:** Andru Morales  
 **GitHub:** [andruakadrew](https://github.com/andruakadrew)  
 **Start Date:** April 6, 2026  
-**Target Completion:** April 6, 2027  
 
 ---
 
 ## About
 
-This folder contains 365 Python scripts, one written per day, that progressively build from foundational network discovery tools to advanced enterprise-grade automation. Scripts are cross-platform (Windows, macOS, Linux). Each level builds on previous concepts while introducing new ones.
+This folder contains 365 Python scripts, that progressively build from foundational network discovery tools to advanced enterprise-grade automation. Scripts are cross-platform (Windows, macOS, Linux). Each level builds on previous concepts while introducing new ones.
 
 ---
 
