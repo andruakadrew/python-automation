@@ -1,3 +1,20 @@
+# ============================================================
+# Level 004 - DNS Lookup Tool
+# ============================================================
+# Queries DNS for a given domain across multiple record types
+# (A, AAAA, CNAME, MX, NS, TXT) and displays the results
+# with TTL values. Performs basic forward resolution via the
+# OS resolver and reverse lookups on returned IPv4 addresses.
+# Supports filtering by specific record types via CLI flags.
+#
+# Usage:
+#   python level_004_dns_lookup.py google.com
+#   python level_004_dns_lookup.py gmail.com -t MX TXT
+#
+# Dependencies: dnspython
+# ============================================================
+
+
 import socket
 import dns.resolver
 import argparse
