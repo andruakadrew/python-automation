@@ -23,6 +23,7 @@ This folder contains 365 Python scripts, that progressively build from foundatio
 | 5 | `005-subnetting-calculator.py` | Takes an IP address with CIDR notation and calculates the subnet | 04/11/2026 |
 | 6 | `006-network-mapper.py` | Discover live host on a subnet by pinging usable addresses | 04/12/2026 |
 | 7 | `007-vendor-lookup.py` | Takes in MAC addresses, extracts the OUI, and outputs the vendor by utilizing a local OUI database | 04/14/2026 |
+| 8 | `008-arp-viewer.py` | Reads the local ARP table from the OS, parses each entry to extract IP and MAC pairs, looks up the vendor for each MAC using the OUI database from Level 7 | 04/15/2026 |
 
 
 ## Dependencies
