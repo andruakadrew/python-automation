@@ -1,9 +1,9 @@
 # Network Automation Scripts
 
-A collection of Python/Bash automation scripts built to streamline network monitoring, device management, and operational tasks for network engineering and NOC environments. 
+A collection of Python automation scripts built to streamline network monitoring, device management, and operational tasks for network engineering and NOC environments. 
 
 ## Scripts
 
 | Script | Description |
 |---|---|
-| [TCP Chat Room](./TCP-Chat) | Multithreaded TCP chat server and client demonstrating socket programming and concurrent connections |
+| [net-discovery](./net-discovery.py) | Discovers all network interfaces on the local machine and reports their names, IPv4/IPv6 addresses, MAC addresses, and subnet masks. |
